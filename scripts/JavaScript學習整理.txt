@@ -1,0 +1,4 @@
+#點擊網頁會跳出字串
+document.querySelector('html').onclick = function() {
+    alert('Ouch! Stop poking me!');
+}
