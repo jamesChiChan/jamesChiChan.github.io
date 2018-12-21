@@ -22,13 +22,13 @@ var myHeading1 = document.querySelector('h1');
 function setUserName() {
   var myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading1.textContent = '歡迎來到謙哥的美食日記, ' + myName;
+  myHeading1.textContent = '歡迎, ' + myName;
 }
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   var storedName = localStorage.getItem('name');
-  myHeading1.textContent = '歡迎來到謙哥的美食日記, ' + storedName;
+  myHeading1.textContent = '歡迎, ' + storedName;
 }
 myButton.onclick = function() {
   setUserName();
