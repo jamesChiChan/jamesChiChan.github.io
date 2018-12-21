@@ -6,16 +6,16 @@ alert(myHeading);
 //    alert('Ouch! Stop poking me!');
 //}
 // 圖片轉換 但只影響第一張圖
-var myImage = document.querySelector('img');
+// var myImage = document.querySelector('img');
 
-myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/IMG_2678.JPG') {
-      myImage.setAttribute ('src','images/IMG_2677.JPG');
-    } else {
-      myImage.setAttribute ('src','images/IMG_2678.JPG');
-    }
-}
+// myImage.onclick = function() {
+//     var mySrc = myImage.getAttribute('src');
+//     if(mySrc === 'images/IMG_2678.JPG') {
+//       myImage.setAttribute ('src','images/IMG_2677.JPG');
+//     } else {
+//       myImage.setAttribute ('src','images/IMG_2678.JPG');
+//     }
+// }
 
 var myButton = document.querySelector('button');
 var myHeading1 = document.querySelector('h1');
